@@ -3,26 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaTech Solutions | Inovação Digital</title>
+    <title>SYSTEM FAILURE | HACKED</title>
     <style>
-        /* Estilos Globais */
+        /* Estilos de Invasão */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Courier New', Courier, monospace; /* Fonte estilo terminal */
         }
 
         body {
-            color: #333;
+            color: #00ff00; /* Verde Hacker */
             line-height: 1.6;
-            background-color: #f9f9f9;
+            background-color: #000000; /* Fundo totalmente preto */
+            overflow-x: hidden;
         }
 
-        /* Cabeçalho e Menu */
+        /* Cabeçalho Modificado */
         header {
-            background-color: #0f172a;
-            color: #fff;
+            background-color: #050505;
+            color: #00ff00;
             padding: 1rem 5%;
             position: fixed;
             width: 100%;
@@ -31,13 +32,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            transition: background-color 0.3s;
+            border-bottom: 2px solid #00ff00;
+            box-shadow: 0 0 15px #00ff00;
         }
 
         .logo h1 {
             font-size: 1.5rem;
-            color: #38bdf8;
+            color: #ff0000; /* Nome em vermelho para alerta */
+            text-transform: uppercase;
+            animation: blink 1s infinite;
         }
 
         nav ul {
@@ -50,77 +53,73 @@
         }
 
         nav ul li a {
-            color: #fff;
+            color: #00ff00;
             text-decoration: none;
-            transition: color 0.3s;
         }
 
-        nav ul li a:hover {
-            color: #38bdf8;
-        }
-
-        /* Seção Principal (Hero) */
+        /* Banner Principal Infectado */
         .hero {
-            background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.8)), url('https://unsplash.com') no-repeat center center/cover;
+            background: radial-gradient(circle, #0a1f0a 0%, #000 100%);
             height: 100vh;
-            color: #fff;
+            color: #00ff00;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
             padding: 0 1rem;
+            border-bottom: 1px dashed #00ff00;
         }
 
         .hero h2 {
-            font-size: 3rem;
+            font-size: 3.5rem;
+            color: #ff0000; /* Texto de impacto em vermelho */
             margin-bottom: 1rem;
+            text-shadow: 0 0 10px #ff0000;
         }
 
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             margin-bottom: 2rem;
-            max-width: 600px;
+            max-width: 700px;
+            color: #00ff00;
         }
 
         .btn {
-            background-color: #38bdf8;
-            color: #0f172a;
+            background-color: #ff0000;
+            color: #fff;
             padding: 0.75rem 2rem;
-            border: none;
-            border-radius: 5px;
+            border: 1px solid #ff0000;
+            border-radius: 0px;
             font-weight: bold;
             cursor: pointer;
             text-decoration: none;
-            transition: background 0.3s;
+            box-shadow: 0 0 10px #ff0000;
+            transition: all 0.3s;
+            text-transform: uppercase;
         }
 
         .btn:hover {
-            background-color: #0ea5e9;
+            background-color: #00ff00;
+            color: #000;
+            border-color: #00ff00;
+            box-shadow: 0 0 15px #00ff00;
         }
 
-        /* Seções Gerais */
+        /* Seções Alteradas */
         section {
             padding: 5rem 5%;
+            background-color: #000;
         }
 
         section h3 {
             text-align: center;
             font-size: 2rem;
             margin-bottom: 3rem;
-            position: relative;
+            color: #ff0000;
         }
 
-        section h3::after {
-            content: '';
-            display: block;
-            width: 50px;
-            height: 3px;
-            background-color: #38bdf8;
-            margin: 10px auto 0;
-        }
-
-        /* Serviços */
+        /* Serviços Comprometidos */
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -128,61 +127,37 @@
         }
 
         .service-card {
-            background: #fff;
+            background: #050505;
             padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid #00ff00;
             text-align: center;
-            transition: transform 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
+            box-shadow: 0 0 5px #00ff00;
         }
 
         .service-card h4 {
             margin-bottom: 1rem;
-            color: #0f172a;
+            color: #ff0000;
         }
 
-        /* Contato e Formulário */
-        #contato {
-            background-color: #f1f5f9;
-        }
-
-        form {
+        /* Console Terminal Falso */
+        #terminal-log {
+            background-color: #050505;
+            border: 1px solid #00ff00;
+            padding: 1.5rem;
+            margin-top: 2rem;
             max-width: 600px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-        }
-
-        .form-group input, .form-group textarea {
             width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #cbd5e1;
-            border-radius: 4px;
+            text-align: left;
+            font-size: 0.9rem;
+            height: 150px;
+            overflow-y: hidden;
         }
 
-        /* Rodapé */
-        footer {
-            background-color: #0f172a;
-            color: #cbd5e1;
-            text-align: center;
-            padding: 2rem;
-            font-size: 0.9rem;
+        /* Animação de Piscar */
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
         }
     </style>
 </head>
@@ -191,100 +166,80 @@
     <!-- Menu de Navegação -->
     <header>
         <div class="logo">
-            <h1>NovaTech</h1>
+            <h1>[ SYSTEM BREACH ]</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#">BYPASS</a></li>
+                <li><a href="#">EXPLOIT</a></li>
+                <li><a href="#">ROOT</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Banner Principal -->
     <section class="hero">
-        <h2>Transformando Ideias em Realidade Digital</h2>
-        <p>Criamos soluções tecnológicas personalizadas para acelerar o crescimento do seu negócio.</p>
-        <a href="#contato" class="btn">Fale Conosco</a>
+        <h2>YOU HAVE BEEN HACKED</h2>
+        <p>NovaTech Solutions foi desativada. Toda a base de dados, códigos-fonte e credenciais foram criptografados com sucesso.</p>
+        
+        <!-- Console Simulado -->
+        <div id="terminal-log">
+            <p>> Inicializando bypass de segurança...</p>
+        </div>
     </section>
 
-    <!-- Seção de Serviços -->
+    <!-- Seção de Serviços Comprometidos -->
     <section id="servicos">
-        <h3>Nossos Serviços</h3>
+        <h3>STATUS DO SISTEMA</h3>
         <div class="services-grid">
             <div class="service-card">
-                <h4>Desenvolvimento Web</h4>
-                <p>Sites e plataformas modernas, rápidas e totalmente responsivas.</p>
+                <h4>Banco de Dados</h4>
+                <p>[ APAGADO E COPIADO ]</p>
             </div>
             <div class="service-card">
                 <h4>Cloud Computing</h4>
-                <p>Migração e gerenciamento de infraestrutura em nuvem segura.</p>
+                <p>[ ACESSO ROOT GARANTIDO ]</p>
             </div>
             <div class="service-card">
-                <h4>Consultoria de TI</h4>
-                <p>Estratégias inteligentes para otimizar os processos da sua empresa.</p>
+                <h4>Firewall Corporativo</h4>
+                <p>[ DESATIVADO ]</p>
             </div>
         </div>
     </section>
 
-    <!-- Seção de Contato -->
-    <section id="contato">
-        <h3>Entre em Contato</h3>
-        <form id="contactForm">
-            <div class="form-group">
-                <label for="name">Nome</label>
-                <input type="text" id="name" required placeholder="Seu nome completo">
-            </div>
-            <div class="form-group">
-                <label for="email">E-mail</label>
-                <input type="email" id="email" required placeholder="seu@email.com">
-            </div>
-            <div class="form-group">
-                <label for="message">Mensagem</label>
-                <textarea id="message" rows="5" required placeholder="Como podemos ajudar?"></textarea>
-            </div>
-            <button type="submit" class="btn" style="width: 100%;">Enviar Mensagem</button>
-        </form>
-    </section>
-
     <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2026 NovaTech Solutions. Todos os direitos reservados.</p>
+    <footer style="background-color: #050505; border-top: 1px solid #00ff00; padding: 2rem; text-align: center;">
+        <p style="color: #ff0000;">&copy; OWNED BY UNKNOWN_USER // 2026</p>
     </footer>
 
-    <!-- Scripts JavaScript Embutidos -->
+    <!-- Scripts de Efeito Visual -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const contactForm = document.getElementById('contactForm');
+            const logBox = document.getElementById('terminal-log');
+            
+            // Mensagens que vão aparecendo sozinhas na tela como se estivesse rodando um script
+            const logs = [
+                "> Acessando /var/www/html...",
+                "> Injetando payload script.js...",
+                "> Limpando logs de auditoria de TI...",
+                "> Permissão concedida: Root@NovaTech",
+                "> Concluído. Conexão mantida via backdoor local."
+            ];
 
-            // Envio do formulário
-            contactForm.addEventListener('submit', (event) => {
-                event.preventDefault();
-
-                const name = document.getElementById('name').value.trim();
-                const email = document.getElementById('email').value.trim();
-                const message = document.getElementById('message').value.trim();
-
-                if (name === '' || email === '' || message === '') {
-                    alert('Por favor, preencha todos os campos.');
-                    return;
+            let index = 0;
+            function printLogs() {
+                if (index < logs.length) {
+                    const newLog = document.createElement('p');
+                    newLog.textContent = logs[index];
+                    logBox.appendChild(newLog);
+                    index++;
+                    setTimeout(printLogs, 1200); // Adiciona uma nova linha a cada 1.2 segundos
                 }
-
-                alert(`Obrigado pelo contato, ${name}! Sua mensagem foi enviada com sucesso.`);
-                contactForm.reset();
-            });
-
-            // Efeito visual no menu ao rolar a página
-            window.addEventListener('scroll', () => {
-                const header = document.querySelector('header');
-                if (window.scrollY > 50) {
-                    header.style.backgroundColor = '#1e293b';
-                } else {
-                    header.style.backgroundColor = '#0f172a';
-                }
-            });
+            }
+            
+            setTimeout(printLogs, 1000);
         });
     </script>
 </body>
 </html>
+    
